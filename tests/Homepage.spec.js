@@ -10,8 +10,8 @@ test ('home page',async ({page})=>{
 
     await expect(page).toHaveTitle('STORE');
 
-    const pageURL = page.url();
-    console.log('page URL is:',pageURL);
+    const pageURL12 = page.url();
+    console.log('page URL is:',pageURL12);
 
     await expect(page).toHaveURL('https://www.demoblaze.com/');
 
